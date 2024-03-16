@@ -1,0 +1,844 @@
+---> int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2104]
+    Opened input file
+    Opened vars file
+    Parsing ...
+    Processing line 1!
+    (LEX)TK_Integer=1000 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"DEPTH CHARGE GAME"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="DEPTH CHARGE GAME"
+    Processing line 2!
+    (LEX)TK_Integer=1010 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 3!
+    (LEX)TK_Integer=1020 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"DIMENSION OF SEARCH AREA"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="DIMENSION OF SEARCH AREA"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 4!
+    (LEX)TK_Integer=1030 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=G
+    (normal)basiclval.stype='G'
+    Processing line 5!
+    (LEX)TK_Integer=1040 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 6!
+    (LEX)TK_Integer=1050 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N
+    (normal)basiclval.stype='N'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=LOG
+    (normal)basiclval.stype='LOG'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=G
+    (normal)basiclval.stype='G'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=LOG
+    (normal)basiclval.stype='LOG'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=2 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 7!
+    (LEX)TK_Integer=1060 YYSTATE=0
+    (LEX)TK_Randomize='RANDOMIZE'
+    Processing line 8!
+    (LEX)TK_Integer=1070 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"YOU ARE CAPTAIN OF THE DESTROYER USS DIGITAL AND AN ENEMY SUB HAS"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU ARE CAPTAIN OF THE DESTROYER USS DIGITAL AND AN ENEMY SUB HAS"
+    Processing line 9!
+    (LEX)TK_Integer=1080 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"BEEN CAUSING  YOU  TROUBLE,  YOUR MISSION  IS TO DESTROY IT.  YOU"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="BEEN CAUSING  YOU  TROUBLE,  YOUR MISSION  IS TO DESTROY IT.  YOU"
+    Processing line 10!
+    (LEX)TK_Integer=1090 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"HAVE "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="HAVE "
+    (LEX)TK_NAME(PrintStmt)='N'
+    (LEX)Change to NOTYPE=';'
+    (LEX)TK_Name(PrintStmt)=N
+        printfield = 4
+        yytext     = '" SHOTS.  SPECIFY DEPTH CHARGE EXPLOSION POINT WITH A TRIO "'
+        LastToken  = '293'
+    (LEX)NOTYPE<PrintStmt:qs>=';'
+        printfield = 5
+        yytext     = '" SHOTS.  SPECIFY DEPTH CHARGE EXPLOSION POINT WITH A TRIO "'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)=" SHOTS.  SPECIFY DEPTH CHARGE EXPLOSION POINT WITH A TRIO "
+    Processing line 11!
+    (LEX)TK_Integer=1100 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"OF NUMBERS (DISTANCE NORTH, DISTANCE EAST, DEPTH FROM SURFACE)."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="OF NUMBERS (DISTANCE NORTH, DISTANCE EAST, DEPTH FROM SURFACE)."
+    Processing line 12!
+    (LEX)TK_Integer=1110 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 13!
+    (LEX)TK_Integer=1120 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"GOOD LUCK !"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="GOOD LUCK !"
+    Processing line 14!
+    (LEX)TK_Integer=1130 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 15!
+    (LEX)TK_Integer=1140 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=G
+    (normal)basiclval.stype='G'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 16!
+    (LEX)TK_Integer=1150 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=B
+    (normal)basiclval.stype='B'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=G
+    (normal)basiclval.stype='G'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 17!
+    (LEX)TK_Integer=1160 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=C
+    (normal)basiclval.stype='C'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=G
+    (normal)basiclval.stype='G'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 18!
+    (LEX)TK_Integer=1170 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D
+    (normal)basiclval.stype='D'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=N
+    (normal)basiclval.stype='N'
+    Processing line 19!
+    (LEX)TK_Integer=1180 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 20!
+    (LEX)TK_Integer=1190 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"TRIAL NUMBER "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="TRIAL NUMBER "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=D
+    Processing line 21!
+    (LEX)TK_Integer=1200 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"ENTER COORDINATES (N,E,D) : "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="ENTER COORDINATES (N,E,D) : "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 22!
+    (LEX)TK_Integer=1210 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y
+    (normal)basiclval.stype='Y'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x44','
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X
+    (normal)basiclval.stype='X'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x44','
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Processing line 23!
+    (LEX)TK_Integer=1220 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=ABS
+    (normal)basiclval.stype='ABS'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X
+    (normal)basiclval.stype='X'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=ABS
+    (normal)basiclval.stype='ABS'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y
+    (normal)basiclval.stype='Y'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=B
+    (normal)basiclval.stype='B'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=ABS
+    (normal)basiclval.stype='ABS'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=C
+    (normal)basiclval.stype='C'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1300 YYSTATE=3
+    Processing line 24!
+    (LEX)TK_Integer=1230 YYSTATE=0
+    (LEX)TK_Gosub='GOSUB'
+    (LEX)TK_Integer=1390 YYSTATE=3
+    Processing line 25!
+    (LEX)TK_Integer=1240 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 26!
+    (LEX)TK_Integer=1250 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D
+    (normal)basiclval.stype='D'
+    Processing line 27!
+    (LEX)TK_Integer=1260 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 28!
+    (LEX)TK_Integer=1270 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"YOU HAVE BEEN TORPEDOED!  ABANDON SHIP!"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU HAVE BEEN TORPEDOED!  ABANDON SHIP!"
+    Processing line 29!
+    (LEX)TK_Integer=1280 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"THE SUBMARINE WAS AT "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="THE SUBMARINE WAS AT "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=B
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+        printfield = 3
+        yytext     = '","'
+        LastToken  = '44'
+    (LEX)TK_QuoteString(PRINTSTMT)=","
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=A
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+        printfield = 5
+        yytext     = '","'
+        LastToken  = '44'
+    (LEX)TK_QuoteString(PRINTSTMT)=","
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=C
+    Processing line 30!
+    (LEX)TK_Integer=1290 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1340 YYSTATE=3
+    Processing line 31!
+    (LEX)TK_Integer=1300 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 32!
+    (LEX)TK_Integer=1310 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"B O O M ! !  YOU FOUND IT IN "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="B O O M ! !  YOU FOUND IT IN "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=D
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+        printfield = 3
+        yytext     = '"TRIES!"'
+        LastToken  = '59'
+    (LEX)TK_QuoteString(PRINTSTMT)="TRIES!"
+    Processing line 33!
+    (LEX)TK_Integer=1320 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 34!
+    (LEX)TK_Integer=1330 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 35!
+    (LEX)TK_Integer=1340 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"ANOTHER GAME (Y OR N)"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="ANOTHER GAME (Y OR N)"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 36!
+    (LEX)TK_Integer=1350 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Processing line 37!
+    (LEX)TK_Integer=1360 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"Y"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1010 YYSTATE=3
+    Processing line 38!
+    (LEX)TK_Integer=1370 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"OK.  HOPE YOU ENJOYED YOURSELF "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="OK.  HOPE YOU ENJOYED YOURSELF "
+    Processing line 39!
+    (LEX)TK_Integer=1380 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1650 YYSTATE=3
+    Processing line 40!
+    (LEX)TK_Integer=1390 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"SONAR REPORTS SHOT WAS "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="SONAR REPORTS SHOT WAS "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 41!
+    (LEX)TK_Integer=1400 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y
+    (normal)basiclval.stype='Y'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=B
+    (normal)basiclval.stype='B'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1470 YYSTATE=3
+    Processing line 42!
+    (LEX)TK_Integer=1410 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y
+    (normal)basiclval.stype='Y'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=B
+    (normal)basiclval.stype='B'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1490 YYSTATE=3
+    Processing line 43!
+    (LEX)TK_Integer=1420 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X
+    (normal)basiclval.stype='X'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1510 YYSTATE=3
+    Processing line 44!
+    (LEX)TK_Integer=1430 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X
+    (normal)basiclval.stype='X'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1530 YYSTATE=3
+    Processing line 45!
+    (LEX)TK_Integer=1440 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y
+    (normal)basiclval.stype='Y'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=B
+    (normal)basiclval.stype='B'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1550 YYSTATE=3
+    Processing line 46!
+    (LEX)TK_Integer=1450 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X
+    (normal)basiclval.stype='X'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1550 YYSTATE=3
+    Processing line 47!
+    (LEX)TK_Integer=1460 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1560 YYSTATE=3
+    Processing line 48!
+    (LEX)TK_Integer=1470 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"NORTH"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="NORTH"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 49!
+    (LEX)TK_Integer=1480 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1420 YYSTATE=3
+    Processing line 50!
+    (LEX)TK_Integer=1490 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"SOUTH"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="SOUTH"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 51!
+    (LEX)TK_Integer=1500 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1420 YYSTATE=3
+    Processing line 52!
+    (LEX)TK_Integer=1510 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"EAST"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="EAST"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 53!
+    (LEX)TK_Integer=1520 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1440 YYSTATE=3
+    Processing line 54!
+    (LEX)TK_Integer=1530 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"WEST"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="WEST"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 55!
+    (LEX)TK_Integer=1540 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1440 YYSTATE=3
+    Processing line 56!
+    (LEX)TK_Integer=1550 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '" AND "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=" AND "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 57!
+    (LEX)TK_Integer=1560 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=C
+    (normal)basiclval.stype='C'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1590 YYSTATE=3
+    Processing line 58!
+    (LEX)TK_Integer=1570 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=C
+    (normal)basiclval.stype='C'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1610 YYSTATE=3
+    Processing line 59!
+    (LEX)TK_Integer=1580 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=C
+    (normal)basiclval.stype='C'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1630 YYSTATE=3
+    Processing line 60!
+    (LEX)TK_Integer=1590 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"TOO LOW"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="TOO LOW"
+    Processing line 61!
+    (LEX)TK_Integer=1600 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1640 YYSTATE=3
+    Processing line 62!
+    (LEX)TK_Integer=1610 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"TOO HIGH"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="TOO HIGH"
+    Processing line 63!
+    (LEX)TK_Integer=1620 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1640 YYSTATE=3
+    Processing line 64!
+    (LEX)TK_Integer=1630 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"DEPTH OK"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="DEPTH OK"
+    Processing line 65!
+    (LEX)TK_Integer=1640 YYSTATE=0
+    (LEX)TK_Return='RETURN'
+    Processing line 66!
+    (LEX)TK_Integer=1650 YYSTATE=0
+    (LEX)TK_End='END'
+    Processing line 67!
+    Sorting Symbols ...
+    Grab Labels ...
+    Update Vars ...
+    Mark All Routines ...
+    Display Initial Code ...
+    TStatement::_RtnCount-1=1
+    Fixup targets that are on comments.
+    FixupTargets() stmt:'1000	PRINT "DEPTH CHARGE GAME" '
+    FixupTargets() stmt:'1010	PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1020	PRINT "DIMENSION OF SEARCH AREA"; '
+    FixupTargets() stmt:'1030	INPUT G'
+    FixupTargets() stmt:'1040	PRINT'
+    FixupTargets() stmt:'1050	N=INT(LOG(G)/LOG(2))+1 '
+    FixupTargets() stmt:'1060	RANDOMIZE'
+    FixupTargets() stmt:'1070	PRINT "YOU ARE CAPTAIN OF THE DESTROYER USS DIGITAL AND AN ENEMY SUB HAS"'
+    FixupTargets() stmt:'1080	PRINT "BEEN CAUSING  YOU  TROUBLE,  YOUR MISSION  IS TO DESTROY IT.  YOU"'
+    FixupTargets() stmt:'1090	PRINT "HAVE "N" SHOTS.  SPECIFY DEPTH CHARGE EXPLOSION POINT WITH A TRIO "'
+    FixupTargets() stmt:'1100	PRINT "OF NUMBERS (DISTANCE NORTH, DISTANCE EAST, DEPTH FROM SURFACE)."'
+    FixupTargets() stmt:'1110	PRINT '
+    FixupTargets() stmt:'1120	PRINT "GOOD LUCK !" '
+    FixupTargets() stmt:'1130	PRINT'
+    FixupTargets() stmt:'1140	A=INT(G*RND) '
+    FixupTargets() stmt:'1150	B=INT(G*RND) '
+    FixupTargets() stmt:'1160	C=INT(G*RND)'
+    FixupTargets() stmt:'1170	FOR D=1 TO N '
+    FixupTargets() stmt:'1180	PRINT '
+    FixupTargets() stmt:'1190	PRINT "TRIAL NUMBER ";D '
+    FixupTargets() stmt:'1200	PRINT "ENTER COORDINATES (N,E,D) : ";'
+    FixupTargets() stmt:'1210	INPUT Y,X,Z'
+    FixupTargets() stmt:'1220	IF ABS(X-A)+ABS(Y-B)+ABS(Z-C)=0 THEN 1300'
+    FixupTargets() stmt:'1230	GOSUB 1390'
+    FixupTargets() stmt:'1240	PRINT '
+    FixupTargets() stmt:'1250	NEXT D'
+    FixupTargets() stmt:'1260	PRINT '
+    FixupTargets() stmt:'1270	PRINT "YOU HAVE BEEN TORPEDOED!  ABANDON SHIP!"'
+    FixupTargets() stmt:'1280	PRINT "THE SUBMARINE WAS AT ";B,",";A,",";C'
+    FixupTargets() stmt:'1290	GOTO 1340'
+    FixupTargets() stmt:'1300	PRINT '
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1310	PRINT "B O O M ! !  YOU FOUND IT IN ";D;"TRIES!"'
+    FixupTargets() stmt:'1320	PRINT '
+    FixupTargets() stmt:'1330	PRINT '
+    FixupTargets() stmt:'1340	PRINT "ANOTHER GAME (Y OR N)";'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1350	INPUT A$'
+    FixupTargets() stmt:'1360	IF A$="Y" THEN 1010'
+    FixupTargets() stmt:'1370	PRINT "OK.  HOPE YOU ENJOYED YOURSELF " '
+    FixupTargets() stmt:'1380	GOTO 1650'
+    FixupTargets() stmt:'1390	PRINT "SONAR REPORTS SHOT WAS ";'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1400	IF Y>B THEN 1470'
+    FixupTargets() stmt:'1410	IF Y<B THEN 1490'
+    FixupTargets() stmt:'1420	IF X>A THEN 1510'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1430	IF X<A THEN 1530'
+    FixupTargets() stmt:'1440	IF Y<>B THEN 1550'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1450	IF X<>A THEN 1550'
+    FixupTargets() stmt:'1460	GOTO 1560'
+    FixupTargets() stmt:'1470	PRINT "NORTH";'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1480	GOTO 1420'
+    FixupTargets() stmt:'1490	PRINT "SOUTH";'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1500	GOTO 1420'
+    FixupTargets() stmt:'1510	PRINT "EAST";'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1520	GOTO 1440'
+    FixupTargets() stmt:'1530	PRINT "WEST";'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1540	GOTO 1440'
+    FixupTargets() stmt:'1550	PRINT " AND ";'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1560	IF Z>C THEN 1590'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1570	IF Z<C THEN 1610'
+    FixupTargets() stmt:'1580	IF Z=C THEN 1630'
+    FixupTargets() stmt:'1590	PRINT "TOO LOW"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1600	GOTO 1640'
+    FixupTargets() stmt:'1610	PRINT "TOO HIGH"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1620	GOTO 1640'
+    FixupTargets() stmt:'1630	PRINT "DEPTH OK"'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1640	RETURN'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1650	END'
+      Target is GOSUB or GOTO
+    Finished FixupTargets
+    Split Overlapping Subroutines ...
+    Straighten Overlapping Subroutines ...
+    Renumber Source ...
+    Display Empty Code Ranges ...
+    Display Symbol Table ...
+    Display of final 'clean' BASIC listing ...
+    TStatement::_RtnCount-1=1
+    Finished!!!
+<--- int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2210]
