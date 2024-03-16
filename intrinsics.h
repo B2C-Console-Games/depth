@@ -1,1 +1,0 @@
-../../../b2c/intrinsics.h

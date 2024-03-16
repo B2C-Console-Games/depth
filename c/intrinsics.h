@@ -315,6 +315,7 @@ void ClearScreen(int Type){
 }
 
 //------------------------------------------------------------------------------
+// Returns random number [0.0 - 1.0) (ie. 0 to 0.99999999)
 float RND(){
     int rn=rand()%1000;
     float rtn=(float)rn/1000.0;
