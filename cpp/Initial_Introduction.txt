@@ -1,168 +1,166 @@
-"Welcome aboard, Captain! As the commanding officer of the USS \
-Cybernetic, your task is clear: hunt down and eliminate the hostile \
-submarine lurking in these waters. With only %d depth charges at \
-your disposal, precision is key. Plot your moves wisely and deliver \
-the decisive blow by specifying the detonation coordinates with a \
-trio of numbers: distance north, east, and depth from the surface. \
-Best of luck, Captain!"
+printf("Welcome aboard, Captain! As the commanding officer of the USS\n");
+printf("Cybernetic, your task is clear: hunt down and eliminate the hostile\n");
+printf("submarine lurking in these waters. With only %d depth charges at\n");
+printf("your disposal, precision is key. Plot your moves wisely and deliver\n");
+printf("the decisive blow by specifying the detonation coordinates with a\n");
+printf("trio of numbers: distance north, east, and depth from the surface.\n");
+printf("Best of luck, Captain!\n");
 
-"Ahoy, Captain! Your vessel, the USS Virtual, sails through \
-treacherous waters as you seek to vanquish the elusive enemy \
-submarine. Armed with just %d depth charges, the fate of your \
-mission rests in your hands. Choose your targets wisely by \
-pinpointing the precise detonation coordinates using a trio of \
-numbers: distance north, east, and depth from the surface. May \
-fortune favor you on this perilous voyage!"
+printf("Ahoy, Captain! Your vessel, the USS Virtual, sails through\n");
+printf("treacherous waters as you seek to vanquish the elusive enemy\n");
+printf("submarine. Armed with just %d depth charges, the fate of your\n");
+printf("mission rests in your hands. Choose your targets wisely by\n");
+printf("pinpointing the precise detonation coordinates using a trio of\n");
+printf("numbers: distance north, east, and depth from the surface. May\n");
+printf("fortune favor you on this perilous voyage!\n");
 
-"Captain, aboard the USS Algorithmic, you embark on a high-stakes \
-pursuit of the enemy sub lurking beneath the waves. With only %d \
-depth charges in your arsenal, every decision counts. To secure \
-victory, strategize your attacks meticulously, providing a trio of \
-numbers to designate the detonation point: distance north, east, and \
-depth from the surface. The success of your mission hinges on your \
-precision and cunning. Godspeed, Captain!"
+printf("Captain, aboard the USS Algorithmic, you embark on a high-stakes\n");
+printf("pursuit of the enemy sub lurking beneath the waves. With only %d\n");
+printf("depth charges in your arsenal, every decision counts. To secure\n");
+printf("victory, strategize your attacks meticulously, providing a trio of\n");
+printf("numbers to designate the detonation point: distance north, east, and\n");
+printf("depth from the surface. The success of your mission hinges on your\n");
+printf("precision and cunning. Godspeed, Captain!\n");
 
-"Attention, Captain! Your command, the USS Binary, is on a crucial \
-mission to neutralize the adversary submarine wreaking havoc in these \
-waters. Armed with a limited supply of %d depth charges, you must \
-act swiftly and decisively. Navigate through the depths, specifying \
-the detonation coordinates with a trio of numbers: distance north, \
-east, and depth from the surface. Your skill and judgment will \
-determine the outcome of this perilous engagement. Best of luck, \
-Captain!"
+printf("Attention, Captain! Your command, the USS Binary, is on a crucial\n");
+printf("mission to neutralize the adversary submarine wreaking havoc in these\n");
+printf("waters. Armed with a limited supply of %d depth charges, you must\n");
+printf("act swiftly and decisively. Navigate through the depths, specifying\n");
+printf("the detonation coordinates with a trio of numbers: distance north,\n");
+printf("east, and depth from the surface. Your skill and judgment will\n");
+printf("determine the outcome of this perilous engagement. Best of luck,\n");
+printf("Captain!\n");
 
-"Captain, aboard the USS Cyberwarrior, you stand at the helm of our \
-naval forces, tasked with eliminating the enemy submarine threatening \
-our waters. With only %d depth charges at your disposal, your \
-strategic prowess will be put to the test. Take aim and specify the \
-detonation coordinates using a trio of numbers: distance north, east, \
-and depth from the surface. The fate of this mission rests in your \
-hands. Godspeed, Captain!"
+printf("Captain, aboard the USS Cyberwarrior, you stand at the helm of our\n");
+printf("naval forces, tasked with eliminating the enemy submarine threatening\n");
+printf("our waters. With only %d depth charges at your disposal, your\n");
+printf("strategic prowess will be put to the test. Take aim and specify the\n");
+printf("detonation coordinates using a trio of numbers: distance north, east,\n");
+printf("and depth from the surface. The fate of this mission rests in your\n");
+printf("hands. Godspeed, Captain!\n");
 
-"Welcome aboard, Captain! Your command, the USS Quantum, is on a \
-mission of utmost importance: to locate and destroy the hostile \
-submarine prowling beneath the waves. With a limited arsenal of %d \
-depth charges, your tactical acumen will be critical. Plot your \
-course carefully and designate the detonation coordinates with \
-precision, using a trio of numbers: distance north, east, and depth \
-from the surface. Victory awaits those who dare to brave these \
-perilous depths. Good luck, Captain!"
+printf("Welcome aboard, Captain! Your command, the USS Quantum, is on a\n");
+printf("mission of utmost importance: to locate and destroy the hostile\n");
+printf("submarine prowling beneath the waves. With a limited arsenal of %d\n");
+printf("depth charges, your tactical acumen will be critical. Plot your\n");
+printf("course carefully and designate the detonation coordinates with\n");
+printf("precision, using a trio of numbers: distance north, east, and depth\n");
+printf("from the surface. Victory awaits those who dare to brave these\n");
+printf("perilous depths. Good luck, Captain!\n");
 
-"Ahoy, Captain! As the leader of the USS Firewall, your mission is \
-clear: eradicate the enemy submarine posing a threat to our waters. \
-With only %d depth charges at your disposal, every move counts. \
-Navigate through the depths and designate the detonation coordinates \
-with a trio of numbers: distance north, east, and depth from the \
-surface. The success of this mission depends on your strategic \
-prowess and resolve. Set sail, Captain, and may fortune favor you!"
+printf("Ahoy, Captain! As the leader of the USS Firewall, your mission is\n");
+printf("clear: eradicate the enemy submarine posing a threat to our waters.\n");
+printf("With only %d depth charges at your disposal, every move counts.\n");
+printf("Navigate through the depths and designate the detonation coordinates\n");
+printf("with a trio of numbers: distance north, east, and depth from the\n");
+printf("surface. The success of this mission depends on your strategic\n");
+printf("prowess and resolve. Set sail, Captain, and may fortune favor you!\n");
 
-"Captain, aboard the USS Digitalis, you embark on a mission of utmost \
-importance: to eliminate the hostile submarine endangering our naval \
-supremacy. Armed with just %d depth charges, the odds may seem \
-daunting, but your courage and skill will prevail. Navigate the \
-waters with precision and specify the detonation coordinates using a \
-trio of numbers: distance north, east, and depth from the surface. \
-Victory awaits the bold. Good luck, Captain!"
+printf("Captain, aboard the USS Digitalis, you embark on a mission of utmost\n");
+printf("importance: to eliminate the hostile submarine endangering our naval\n");
+printf("supremacy. Armed with just %d depth charges, the odds may seem\n");
+printf("daunting, but your courage and skill will prevail. Navigate the\n");
+printf("waters with precision and specify the detonation coordinates using a\n");
+printf("trio of numbers: distance north, east, and depth from the surface.\n");
+printf("Victory awaits the bold. Good luck, Captain!\n");
 
-"Attention, Captain! Your command, the USS Megabyte, is tasked with \
-neutralizing the enemy submarine threatening our naval operations. \
-With only %d depth charges in your arsenal, your strategic \
-ingenuity will be put to the test. Chart your course wisely and \
-designate the detonation coordinates with precision, using a trio of \
-numbers: distance north, east, and depth from the surface. The \
-outcome of this mission rests in your hands. Godspeed, Captain!"
+printf("Attention, Captain! Your command, the USS Megabyte, is tasked with\n");
+printf("neutralizing the enemy submarine threatening our naval operations.\n");
+printf("With only %d depth charges in your arsenal, your strategic\n");
+printf("ingenuity will be put to the test. Chart your course wisely and\n");
+printf("designate the detonation coordinates with precision, using a trio of\n");
+printf("numbers: distance north, east, and depth from the surface. The\n");
+printf("outcome of this mission rests in your hands. Godspeed, Captain!\n");
 
-"Welcome aboard, Captain! As the commander of the USS Encryption, \
-your mission is clear: hunt down and destroy the hostile submarine \
-lurking in these waters. With just %d depth charges at your \
-disposal, the odds may seem challenging, but your expertise will see \
-us through. Plot your moves meticulously and designate the detonation \
-coordinates with a trio of numbers: distance north, east, and depth \
-from the surface. The success of this mission hinges on your skill \
-and determination. Best of luck, Captain!"
+printf("Welcome aboard, Captain! As the commander of the USS Encryption,\n");
+printf("your mission is clear: hunt down and destroy the hostile submarine\n");
+printf("lurking in these waters. With just %d depth charges at your\n");
+printf("disposal, the odds may seem challenging, but your expertise will see\n");
+printf("us through. Plot your moves meticulously and designate the detonation\n");
+printf("coordinates with a trio of numbers: distance north, east, and depth\n");
+printf("from the surface. The success of this mission hinges on your skill\n");
+printf("and determination. Best of luck, Captain!\n");
 
-"Ahoy, Captain! Aboard the USS Megahertz, you lead our forces on a \
-critical mission to eliminate the enemy submarine threatening our \
-waters. With only %d depth charges available, every decision is \
-vital. Navigate the depths and specify the detonation coordinates \
-with precision, using a trio of numbers: distance north, east, and \
-depth from the surface. Victory awaits the bold and the strategic. \
-Set sail, Captain, and may fortune favor you!"
+printf("Ahoy, Captain! Aboard the USS Megahertz, you lead our forces on a\n");
+printf("critical mission to eliminate the enemy submarine threatening our\n");
+printf("waters. With only %d depth charges available, every decision is\n");
+printf("vital. Navigate the depths and specify the detonation coordinates\n");
+printf("with precision, using a trio of numbers: distance north, east, and\n");
+printf("depth from the surface. Victory awaits the bold and the strategic.\n");
+printf("Set sail, Captain, and may fortune favor you!\n");
 
-"Captain, aboard the USS Datastream, you embark on a mission of \
-utmost importance: to locate and neutralize the hostile submarine \
-lurking beneath the waves. With a limited supply of %d depth \
-charges, your strategic prowess will be put to the test. Navigate \
-through the depths and designate the detonation coordinates with \
-precision, using a trio of numbers: distance north, east, and depth \
-from the surface. The success of this mission depends on your skill \
-and resolve. Good luck, Captain!"
+printf("Captain, aboard the USS Datastream, you embark on a mission of\n");
+printf("utmost importance: to locate and neutralize the hostile submarine\n");
+printf("lurking beneath the waves. With a limited supply of %d depth\n");
+printf("charges, your strategic prowess will be put to the test. Navigate\n");
+printf("through the depths and designate the detonation coordinates with\n");
+printf("precision, using a trio of numbers: distance north, east, and depth\n");
+printf("from the surface. The success of this mission depends on your skill\n");
+printf("and resolve. Good luck, Captain!\n");
 
-"Attention, Captain! Your command, the USS Nanosecond, is on a \
-critical mission to eliminate the enemy submarine threatening our \
-naval superiority. With only %d depth charges in your arsenal, \
-every decision is crucial. Plot your course carefully and designate \
-the detonation coordinates with precision, using a trio of numbers: \
-distance north, east, and depth from the surface. Victory awaits \
-those who dare to brave these perilous depths. Godspeed, Captain!"
+printf("Attention, Captain! Your command, the USS Nanosecond, is on a\n");
+printf("critical mission to eliminate the enemy submarine threatening our\n");
+printf("naval superiority. With only %d depth charges in your arsenal,\n");
+printf("every decision is crucial. Plot your course carefully and designate\n");
+printf("the detonation coordinates with precision, using a trio of numbers:\n");
+printf("distance north, east, and depth from the surface. Victory awaits\n");
+printf("those who dare to brave these perilous depths. Godspeed, Captain!\n");
 
-"Welcome aboard, Captain! As the leader of the USS Firewall, your \
-mission is clear: eradicate the enemy submarine posing a threat to \
-our waters. With only %d depth charges at your disposal, every move \
-counts. Navigate through the depths and designate the detonation \
-coordinates with a trio of numbers: distance north, east, and depth \
-from the surface. The success of this mission depends on your \
-strategic prowess and resolve. Set sail, Captain, and may fortune \
-favor you!"
+printf("Welcome aboard, Captain! As the leader of the USS Firewall, your\n");
+printf("mission is clear: eradicate the enemy submarine posing a threat to\n");
+printf("our waters. With only %d depth charges at your disposal, every move\n");
+printf("counts. Navigate through the depths and designate the detonation\n");
+printf("coordinates with a trio of numbers: distance north, east, and depth\n");
+printf("from the surface. The success of this mission depends on your\n");
+printf("strategic prowess and resolve. Set sail, Captain, and may fortune\n");
+printf("favor you!\n");
 
-"Captain, aboard the USS Digitalis, you embark on a mission of utmost \
-importance: to eliminate the hostile submarine endangering our naval \
-supremacy. Armed with just %d depth charges, the odds may seem \
-daunting, but your courage and skill will prevail. Navigate the \
-waters with precision and specify the detonation coordinates using a \
-trio of numbers: distance north, east, and depth from the surface. \
-Victory awaits the bold. Good luck, Captain!"
+printf("Captain, aboard the USS Digitalis, you embark on a mission of utmost\n");
+printf("importance: to eliminate the hostile submarine endangering our naval\n");
+printf("supremacy. Armed with just %d depth charges, the odds may seem\n");
+printf("daunting, but your courage and skill will prevail. Navigate the\n");
+printf("waters with precision and specify the detonation coordinates using a\n");
+printf("trio of numbers: distance north, east, and depth from the surface.\n");
+printf("Victory awaits the bold. Good luck, Captain!\n");
 
-"Attention, Captain! Your command, the USS Megabyte, is tasked with \
-neutralizing the enemy submarine threatening our naval operations. \
-With only %d depth charges in your arsenal, your strategic \
-ingenuity will be put to the test. Chart your course wisely and \
-designate the detonation coordinates with precision, using a trio of \
-numbers: distance north, east, and depth from the surface. The \
-outcome of this mission rests in your hands. Godspeed, Captain!"
+printf("Attention, Captain! Your command, the USS Megabyte, is tasked with\n");
+printf("neutralizing the enemy submarine threatening our naval operations.\n");
+printf("With only %d depth charges in your arsenal, your strategic\n");
+printf("ingenuity will be put to the test. Chart your course wisely and\n");
+printf("designate the detonation coordinates with precision, using a trio of\n");
+printf("numbers: distance north, east, and depth from the surface. The\n");
+printf("outcome of this mission rests in your hands. Godspeed, Captain!\n");
 
-"Welcome aboard, Captain! As the commander of the USS Encryption, \
-your mission is clear: hunt down and destroy the hostile submarine \
-lurking in these waters. With just %d depth charges at your \
-disposal, the odds may seem challenging, but your expertise will see \
-us"
+printf("Welcome aboard, Captain! As the commander of the USS Encryption,\n");
+printf("your mission is clear: hunt down and destroy the hostile submarine\n");
+printf("lurking in these waters. With just %d depth charges at your\n");
+printf("disposal, the odds may seem challenging, but your expertise will see\n");
+printf("us through. Plot your moves meticulously and designate the detonation\n");
+printf("coordinates with a trio of numbers: distance north, east, and depth\n");
+printf("from the surface. The success of this mission hinges on your skill\n");
+printf("and determination. Best of luck, Captain!\n");
 
- through. Plot your moves meticulously and designate the detonation \
-coordinates with a trio of numbers: distance north, east, and depth \
-from the surface. The success of this mission hinges on your skill \
-and determination. Best of luck, Captain!"
+printf("Ahoy, Captain! Aboard the USS Megahertz, you lead our forces on a\n");
+printf("critical mission to eliminate the enemy submarine threatening our\n");
+printf("waters. With only %d depth charges available, every decision is\n");
+printf("vital. Navigate the depths and specify the detonation coordinates\n");
+printf("with precision, using a trio of numbers: distance north, east, and\n");
+printf("depth from the surface. Victory awaits the bold and the strategic.\n");
+printf("Set sail, Captain, and may fortune favor you!\n");
 
-"Ahoy, Captain! Aboard the USS Megahertz, you lead our forces on a \
-critical mission to eliminate the enemy submarine threatening our \
-waters. With only %d depth charges available, every decision is \
-vital. Navigate the depths and specify the detonation coordinates \
-with precision, using a trio of numbers: distance north, east, and \
-depth from the surface. Victory awaits the bold and the strategic. \
-Set sail, Captain, and may fortune favor you!"
+printf("Captain, aboard the USS Datastream, you embark on a mission of\n");
+printf("utmost importance: to locate and neutralize the hostile submarine\n");
+printf("lurking beneath the waves. With a limited supply of %d depth\n");
+printf("charges, your strategic prowess will be put to the test. Navigate\n");
+printf("through the depths and designate the detonation coordinates with\n");
+printf("precision, using a trio of numbers: distance north, east, and depth\n");
+printf("from the surface. The success of this mission depends on your skill\n");
+printf("and resolve. Good luck, Captain!\n");
 
-"Captain, aboard the USS Datastream, you embark on a mission of \
-utmost importance: to locate and neutralize the hostile submarine \
-lurking beneath the waves. With a limited supply of %d depth \
-charges, your strategic prowess will be put to the test. Navigate \
-through the depths and designate the detonation coordinates with \
-precision, using a trio of numbers: distance north, east, and depth \
-from the surface. The success of this mission depends on your skill \
-and resolve. Good luck, Captain!"
-
-"Attention, Captain! Your command, the USS Nanosecond, is on a \
-critical mission to eliminate the enemy submarine threatening our \
-naval superiority. With only %d depth charges in your arsenal, \
-every decision is crucial. Plot your course carefully and designate \
-the detonation coordinates with precision, using a trio of numbers: \
-distance north, east, and depth from the surface. Victory awaits \
-those who dare to brave these perilous depths. Godspeed, Captain!"
+printf("Attention, Captain! Your command, the USS Nanosecond, is on a\n");
+printf("critical mission to eliminate the enemy submarine threatening our\n");
+printf("naval superiority. With only %d depth charges in your arsenal,\n");
+printf("every decision is crucial. Plot your course carefully and designate\n");
+printf("the detonation coordinates with precision, using a trio of numbers:\n");
+printf("distance north, east, and depth from the surface. Victory awaits\n");
+printf("those who dare to brave these perilous depths. Godspeed, Captain!\n");
