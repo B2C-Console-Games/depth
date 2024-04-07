@@ -33,16 +33,18 @@ std::vector<const char* > msg_introduction;
 std::vector<const char* > msg_victory;
 std::vector<const char* > msg_failure;
 std::vector<const char* > msg_location;
+std::vector<const char* > msg_wild;
+std::vector<const char* > msg_boom;
 
-void load_file(const char* fn,std::vector< const char* >& list)
+void load_file(const char* fn,std::vector< const char* >& list,const char nl='|')
 {
     char buf[1000];
     FILE* fh=fopen(fn,"r");
     if(fh!=nullptr){
         char* str=nullptr;
         while((str=fgets(buf,1000,fh))!=nullptr){
-            if((buf[0]!='#')||(buf[0]!=0)){
-                for(int c=0;c<strlen(buf);c++) if(buf[c]=='|') buf[c]='\n';
+            if((buf[0]!='#')&&(buf[0]!=0)){
+                for(int c=0;c<strlen(buf);c++) if(buf[c]==nl) buf[c]='\n';
                 list.push_back(strdup(buf));
             }
         }
@@ -67,12 +69,8 @@ void explain(int n)
 
 void boom()
 {
-    // TODO: Have more than one explosion sub_eastpe being displayed.
-    printf("\n\n  ____                          \n");
-    printf(" | __ )  ___   ___  _ __ ___    \n");
-    printf(" |  _ \\ / _ \\ / _ \\| '_ ` _ \\   \n");
-    printf(" | |_) | (_) | (_) | | | | | |  \n");
-    printf(" |____/ \\___/ \\___/|_| |_| |_|  \n\n\n");
+    const char* str=pick_string(msg_boom);
+    printf("%s",str);
 }
 
 int main(void)
@@ -88,6 +86,8 @@ int main(void)
     load_file("msg/victory.txt",msg_victory);    
     load_file("msg/failure.txt",msg_failure);    
     load_file("msg/location.txt",msg_location);    
+    load_file("msg/boom.txt",msg_boom,'@');    
+    load_file("msg/wild.txt",msg_wild);    
 
     bool play=true;
     while(play){
@@ -119,7 +119,8 @@ int main(void)
 
             int x,y,z;
             if(*ans == 0){
-                printf("    Depth charge WILD!!! Hit the deck!!!\n");
+                const char* str=pick_string(msg_wild);
+                printf("    %s\n",str);
                 x = (int)(g * (rand() / (RAND_MAX + 1.0)));
                 y = (int)(g * (rand() / (RAND_MAX + 1.0)));
                 z = (int)(g * (rand() / (RAND_MAX + 1.0)));
