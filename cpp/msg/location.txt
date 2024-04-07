@@ -1,0 +1,24 @@
+# 
+# These are the location reports of where the submarine was when the player fails to 
+# destroy it with the given number of depth charges.
+#
+Submarine located at coordinates %dN, %dE, depth %d (%d fathoms).|
+Current position: %dN, %dE, depth at %d (%d fathoms) below sea level.|
+Reported location: %dN, %dE, submarine descending to %d (%d fathoms) depth.|
+Coordinates indicate: %dN, %dE, depth registered at %d (%d fathoms).|
+Submarine spotted at %dN, %dE, maintaining depth of %d (%d fathoms).|
+Confirmed position: %dN, %dE, depth reading at %d (%d fathoms) below surface.|
+Navigation log shows: %dN, %dE, submarine descending to %d (%d fathoms).|
+Latest coordinates: %dN, %dE, depth measured at %d (%d fathoms).|
+Last known location: %dN, %dE, submarine cruising at %d (%d fathoms) depth.|
+Visual confirmation at %dN, %dE, depth gauge indicates %d (%d fathoms).|
+Present position: %dN, %dE, submarine maintaining depth of %d (%d fathoms).|
+Reported coordinates: %dN, %dE, depth recorded at %d (%d fathoms) below sea level.|
+Current location: %dN, %dE, descending to %d (%d fathoms) depth.|
+Tracking data shows: %dN, %dE, submarine hovering at %d (%d fathoms) depth.|
+Verified position: %dN, %dE, depth reading stable at %d (%d fathoms).|
+Coordinates logged: %dN, %dE, depth estimated at %d (%d fathoms) below surface.|
+Visual sighting: %dN, %dE, submarine descending to %d (%d fathoms) depth.|
+Confirmed location: %dN, %dE, depth recorded at %d (%d fathoms).|
+Last known position: %dN, %dE, maintaining depth of %d (%d fathoms).|
+Coordinates received: %dN, %dE, depth measured at %d (%d fathoms).|

@@ -1,0 +1,44 @@
+#
+# These are the messages displayed to the player of DepthCharge when they fail to find
+# the enemy submarine in the given number of depth charges.
+#
+The enemy's torpedo has struck us amidships! The hull is breached,|and water is rushing in. Abandon ship! All hands, evacuate|immediately!|
+Direct hit! The torpedo impact has caused a massive explosion in the|engine room. The ship is listing heavily. Abandon ship! Every crew|member to the lifeboats, now!|
+Critical damage sustained! The torpedo struck the ammunition storage,|causing a chain reaction of explosions. The destroyer is engulfed in|flames. Abandon ship! Save yourselves, abandon ship! |
+We've been hit below the waterline! The destroyer is taking on water|fast. Abandon ship! Every sailor to the life rafts, now!|
+Torpedo impact on the starboard side! The hull is breached, and|compartments are flooding rapidly. Abandon ship! This is not a drill,|abandon ship immediately!|
+Mayday! Torpedo struck the bridge, taking out our command center. The|destroyer is crippled. Abandon ship! All crew members, abandon ship|at once!|
+Emergency! The torpedo detonated in the fuel storage. Fire is|spreading rapidly. Abandon ship! Every sailor to the lifeboats,|abandon ship now!|
+We're going down fast! The torpedo hit the engine room, and the|destroyer's propulsion system is failing. Abandon ship! Save|yourselves, abandon ship immediately!|
+Brace for impact! Torpedo struck the stern, causing catastrophic|damage. The destroyer is breaking apart. Abandon ship! Abandon ship|now, there's no time to waste!|
+Enemy torpedo breached the hull! Water is flooding in multiple|compartments. Abandon ship! All crew members, evacuate the destroyer|immediately!|
+Critical hit! Torpedo struck the ammunition storage, causing a|massive explosion. The destroyer is in flames. Abandon ship! Abandon|ship immediately, it's our only chance!|
+We've been hit! Torpedo impact on the port side, and the destroyer is|listing heavily. Abandon ship! All hands, abandon ship now, before|it's too late!|
+Torpedo detonation below decks! The destroyer is taking on water|rapidly. Abandon ship! Every crew member to the life rafts, abandon|ship immediately!|
+Mayday! Torpedo impact caused a breach in the engine room. The|destroyer is losing power. Abandon ship! Abandon ship immediately,|there's no time to waste!|
+Critical damage sustained! Torpedo struck the communications center,|cutting off all contact. Abandon ship! All hands, evacuate the|destroyer at once!|
+We're sinking fast! Torpedo hit the bow, and the destroyer is|breaking apart. Abandon ship! Abandon ship now, before it's too late!|
+Emergency situation! Torpedo detonated in the mess hall, causing|chaos. Abandon ship! Every sailor to the lifeboats, abandon ship|immediately!|
+Torpedo impact on the main deck! The destroyer is listing heavily to|starboard. Abandon ship! All crew members, evacuate the destroyer now!|
+Brace for impact! Torpedo struck the navigation bridge, disabling our|steering. Abandon ship! Abandon ship immediately, it's our only|chance!|
+Critical hit! Torpedo detonated in the engine room, causing a massive|breach. The destroyer is sinking fast. Abandon ship! All hands,|evacuate the destroyer immediately!|
+The enemy's torpedo has struck us amidships with tremendous force,|tearing a massive hole in the hull. Water is gushing in, flooding the|compartments below deck. Abandon ship! All hands, evacuate ; immediately before we're pulled under! \
+Direct hit! The torpedo impact has caused a catastrophic explosion in|the engine room, rupturing fuel lines and igniting fires throughout|the ship. Flames are spreading rapidly, engulfing the destroyer.|Abandon ship! Every crew member to the lifeboats, now, before it's|too late!|
+Critical damage sustained! The torpedo struck the ammunition storage,|triggering a series of explosions that rip through the destroyer.|Debris is flying everywhere, and secondary fires are breaking out.|Abandon ship! Save yourselves, abandon ship immediately!|
+We've been hit below the waterline! The force of the torpedo impact|has caused structural damage to the hull, leading to multiple|breaches. Water is pouring in, flooding compartments and weighing the|destroyer down. Abandon ship! Every sailor to the life rafts, now,|before we sink!|
+Torpedo impact on the starboard side! The hull has been breached, and|the destroyer is beginning to list dangerously. Emergency bulkheads|are failing to contain the flooding. Abandon ship! This is not a|drill, abandon ship immediately to avoid being trapped!|
+Mayday! Torpedo struck the bridge, shattering windows and destroying|vital equipment. The command center is in chaos, and communications|are down. Abandon ship! All crew members, abandon ship at once before|we lose all control!|
+Emergency! The torpedo detonated in the fuel storage, setting off a|massive inferno. Flames are raging out of control, consuming|everything in their path. Abandon ship! Every sailor to the|lifeboats, abandon ship now before we're consumed by fire!|
+We're going down fast! The torpedo hit the engine room, and the|destroyer's propulsion system is failing. The ship is losing power,|and we're adrift in enemy waters. Abandon ship! Save yourselves,|abandon ship immediately before we're helpless!|
+Brace for impact! Torpedo struck the stern, causing catastrophic|damage to the propulsion systems. The destroyer is losing speed, and|we're at the mercy of the currents. Abandon ship! Abandon ship now,|there's no time to waste before we're dragged under!|
+Enemy torpedo breached the hull! Water is flooding in multiple|compartments, overwhelming the pumping systems. The destroyer is|rapidly taking on water, and we're losing buoyancy. Abandon ship! All|crew members, evacuate the destroyer immediately to avoid being|trapped!|
+Critical hit! Torpedo struck the ammunition storage, causing a|massive explosion that rips through the destroyer. The ship is|engulfed in flames, and the heat is becoming unbearable. Abandon|ship! Abandon ship immediately, it's our only chance of survival!|
+We've been hit! Torpedo impact on the port side, and the destroyer is|listing heavily. Emergency bulkheads are failing to contain the|flooding, and compartments are rapidly filling with water. Abandon|ship! All hands, abandon ship now, before we capsize!|
+Torpedo detonation below decks! The destroyer is taking on water|rapidly, and the pumps are struggling to keep up. The ship is|beginning to list, and it's only a matter of time before we sink.|Abandon ship! Every crew member to the life rafts, abandon ship|immediately!|
+Mayday! Torpedo impact caused a breach in the engine room, and the|destroyer's propulsion systems are failing. The ship is dead in the|water, and we're drifting into enemy territory. Abandon ship! Abandon|ship immediately, there's no time to waste before we're surrounded!|
+Critical damage sustained! Torpedo struck the communications center,|cutting off all contact with the outside world. We're isolated, and|rescue efforts will be delayed. Abandon ship! All hands, evacuate the|destroyer at once before we're left stranded!|
+We're sinking fast! Torpedo hit the bow, and the destroyer is|breaking apart. The ship is listing uncontrollably, and compartments|are flooding rapidly. Abandon ship! Abandon ship now, before we're|pulled under by the weight of the water!|
+Emergency situation! Torpedo detonated in the mess hall, causing|chaos and confusion among the crew. Debris is blocking escape routes,|and compartments are flooding. Abandon ship! Every sailor to the|lifeboats, abandon ship immediately to avoid being trapped!|
+Torpedo impact on the main deck! The destroyer is listing heavily to|starboard, and the ship is becoming unstable. Bulkheads are failing,|and compartments are flooding. Abandon ship! All crew members,|evacuate the destroyer now before it's too late!|
+Brace for impact! Torpedo struck the navigation bridge, disabling our|steering and navigation systems. The destroyer is adrift, and we're|at the mercy of the currents. Abandon ship! Abandon ship immediately,|it's our only chance of avoiding collision with other vessels!|
+Critical hit! Torpedo detonated in the engine room, causing a massive|breach in the hull. The destroyer is sinking fast, and compartments|are flooding at an alarming rate. Abandon ship! All hands, evacuate|the destroyer immediately before it's too late!|

@@ -6,6 +6,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+#include <vector>
+
 
 // TODO: Have hassling by enemy aircraft (which makes destroyer move position -- 
 //       but the search space doesn't change -- so the captain has to traslate the
@@ -27,19 +29,45 @@
 // TODO: Encode text strings as compressed so they can't be read in exe:
 //          cppbanner  BOOM! | chrcnt | grep -v " 0 "
 
+std::vector<const char* > msg_introduction;
+std::vector<const char* > msg_victory;
+std::vector<const char* > msg_failure;
+std::vector<const char* > msg_location;
+
+void load_file(const char* fn,std::vector< const char* >& list)
+{
+    char buf[1000];
+    FILE* fh=fopen(fn,"r");
+    if(fh!=nullptr){
+        char* str=nullptr;
+        while((str=fgets(buf,1000,fh))!=nullptr){
+            if((buf[0]!='#')||(buf[0]!=0)){
+                for(int c=0;c<strlen(buf);c++) if(buf[c]=='|') buf[c]='\n';
+                list.push_back(strdup(buf));
+            }
+        }
+        fclose(fh);
+    }else{
+        fprintf(stderr,"ERROR: Failed to open file %s!\n",fn);
+    }
+}
+
+const char* pick_string(std::vector< const char* >& list)
+{
+    return(list[rand()%(list.size())]);
+}
+
 void explain(int n)
 {
-    printf("\n\nYou are captain of the destroyer USS Digital and\n");
-    printf("an enemy sub has been causing you trouble. Your mission\n"); 
-    printf("is to destroy it. You have %d shots. Specify depth charge\n",n);
-    printf("explosion point with a trio of numbers (distance north, \n");
-    printf("east, and  depth from surface).\n");
-    printf("GOOD LUCK !\n\n\n");
+    const char* str=pick_string(msg_introduction);
+    printf("\n");
+    printf(str,n);
+    printf("\n\n\n");
 }
 
 void boom()
 {
-    // TODO: Have more than one explosion type being displayed.
+    // TODO: Have more than one explosion sub_eastpe being displayed.
     printf("\n\n  ____                          \n");
     printf(" | __ )  ___   ___  _ __ ___    \n");
     printf(" |  _ \\ / _ \\ / _ \\| '_ ` _ \\   \n");
@@ -56,9 +84,14 @@ int main(void)
     printf("DEPTH CHARGE GAME\n");
     srand(time(NULL));
 
+    load_file("msg/introduction.txt",msg_introduction);    
+    load_file("msg/victory.txt",msg_victory);    
+    load_file("msg/failure.txt",msg_failure);    
+    load_file("msg/location.txt",msg_location);    
 
     bool play=true;
     while(play){
+        // Get the search volume side-length
         printf("\n\nSearch volume (side length): ");
         fgets(ans,100,stdin);
         ans[strlen(ans)-1]=0;
@@ -67,10 +100,11 @@ int main(void)
         n = (int)(log(g) / log(2)) + 1;
         explain(n);
 
-        int tx = (int)(g * (rand() / (RAND_MAX + 1.0)));
-        int ty = (int)(g * (rand() / (RAND_MAX + 1.0)));
-        int tz = (int)(g * (rand() / (RAND_MAX + 1.0)));
-        //printf("tx=%d ty=%d tz=%d\n",tx,ty,tz);
+        // Locate the submarine in our volume.
+        int sub_north = (int)(g * (rand() / (RAND_MAX + 1.0)));
+        int sub_east = (int)(g * (rand() / (RAND_MAX + 1.0)));
+        int sub_depth = (int)(g * (rand() / (RAND_MAX + 1.0)));
+        //printf("sub_north=%d sub_east=%d sub_depth=%d\n",sub_north,sub_east,sub_depth);
 
         bool won=false;
         for(int d=1; (d<=n)&&(!won); d++) {
@@ -100,35 +134,38 @@ int main(void)
                 y = atoi(sy);
                 z = atoi(sz);
             }
-            if (abs(x - tx) + abs(y - ty) + abs(z - tz) == 0) {
 
+            // Check for difference in location of depth-charge explosion and submarine.
+            if (abs(x-sub_north) + abs(y-sub_east) + abs(z-sub_depth) == 0) {
+
+                // DC hit the submarine.
                 boom();
-
-                printf("\n\nYou see an eruption of oil and debris.\n");
-                printf("As you watch you see what appears to be an enemy\n");
-                printf("submarine keel over and disappear benieth the waves...\n");
+                const char* str=pick_string(msg_victory);
+                printf("\n\n\n%s\n\n",str);
                 printf("You found it in %d tries! Congratulations!\n", d);
                 won=true;
+
             } else {
+
                 const char* ns="";
                 const char* ew="";
                 const char* ud="Depth OK";
 
-                if(x<tx){
+                if(x<sub_north){
                     ns="South";
-                }else if(x>tx){
+                }else if(x>sub_north){
                     ns="North";
                 }
 
-                if(y<ty){
+                if(y<sub_east){
                     ew="West";
-                }else if(y>ty){
+                }else if(y>sub_east){
                     ew="East";
                 }
 
-                if(z<tz){
+                if(z<sub_depth){
                     ud="Shallow";
-                }else if(z>tz){
+                }else if(z>sub_depth){
                     ud="Deep";
                 }
 
@@ -144,17 +181,20 @@ int main(void)
                 strcat(buf,sep2); 
                 strcat(buf,ud); 
 
-                printf("   Sonar reports shot was: %s\n",buf);
+                printf("    Sonar reports shot was: %s\n",buf);
             }
         }
+
+        // Check for victory conditions.
         if(!won){
             boom();
 
-            printf("You have been torpedoed!  Water is gushing in \n");
-            printf("through the torpedoe bays.  Pipes have burst! \n");
-            printf("The captain and first boson are both dead.\n");
-            printf("We are taking on too much water!  ABANDON SHIP!\n\n");
-            printf("The submarine was at %d,%d,%d\n", tx, ty, tz);
+            const char* str=pick_string(msg_failure);
+            printf("\n\n%s",str);
+
+            str=pick_string(msg_location); 
+            printf(str,sub_north,sub_east,sub_depth,sub_depth*10);
+
             printf("\n\n\nAnother game (Y OR N)");
             fgets(ans,100,stdin);
             ans[strlen(ans)-1]=0;

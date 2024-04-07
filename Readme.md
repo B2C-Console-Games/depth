@@ -1,4 +1,18 @@
----
+This Basic version of DepthCharge is a fairly trivial program.  It allows the player
+to specify a N x N x N volume below the surface of the player's ship.  The player
+then specifies (repeatedly) the coordinates of the detonation of the depth charges with coordinates
+North, East and Depth from the surface.  This puts the destroyer at the 
+South-West corner of the search space on the surface.  
+
+The number of depth-charges is limited and is determined by the side-length, N, of the volume
+and the assumption of a binary search.  
+
+The best solution is to do a binary search on each of the coordinates of the search space.
+
+This isn't a terribly gripping game but now that it is in C/C++ we can improve it in 
+numerous directions.
+
+But first lets look a what a typical session of the game looks like.
 
 Example session with depth.c which is the immediate (b2c) copy of the program depth.bas
 
@@ -33,7 +47,6 @@ Example session with depth.c which is the immediate (b2c) copy of the program de
         ANOTHER GAME (Y OR N) ? n
         OK.  HOPE YOU ENJOYED YOURSELF 
 
----
 
 A slightly improved version (depth.cpp) produces a session like:
 
@@ -81,5 +94,8 @@ A slightly improved version (depth.cpp) produces a session like:
         As you watch you see what appears to be an enemy
         submarine keel over and disappear benieth the waves...
         You found it in 4 tries! Congratulations!
+
+The code structure has been cleaned up a little, and the messages to the 
+player have been converted into, as Hugh would say, "Tasteful dual case".
 
 
