@@ -98,4 +98,68 @@ A slightly improved version (depth.cpp) produces a session like:
 The code structure has been cleaned up a little, and the messages to the 
 player have been converted into, as Hugh would say, "Tasteful dual case".
 
+### April 07,2024
+
+The cpp version has continued to be developed adding message files (generated
+mostly by ChatGPT) to add some variety.  These are loaded and the strings picked
+at random by two new routines. The program has also been commented a little better.
+
+		DEPTH CHARGE GAME
+		
+		
+		Search volume (side length): 20
+		
+		Captain, aboard the USS Digitalis, you embark on a mission of utmost
+		importance: to eliminate the hostile submarine endangering our naval
+		supremacy. Armed with just 5 depth charges, the odds may seem
+		daunting, but your courage and skill will prevail. Navigate the
+		waters with precision and specify the detonation coordinates using a
+		trio of numbers: distance north, east, and depth from the surface.
+		Victory awaits the bold. Good luck, Captain!
+		
+		
+		
+		
+		
+		Depth Charge: 1
+		  Enter coordinates (N,E,D) : 
+		    Depth charge WILD!!! Red alert!!!
+		
+		    Depth charge explodes at N,E,D=(17,2,12)
+		    Sonar reports shot was: North, West and Deep
+		
+		Depth Charge: 2
+		  Enter coordinates (N,E,D) : 8,11,6 
+		    Sonar reports shot was: North, East and Deep
+		
+		Depth Charge: 3
+		  Enter coordinates (N,E,D) : 4,7,3
+		    Sonar reports shot was: South, West and Shallow
+		
+		Depth Charge: 4
+		  Enter coordinates (N,E,D) : 6,9,4
+		    Sonar reports shot was: South, East and Depth OK
+		
+		Depth Charge: 5
+		  Enter coordinates (N,E,D) : 7,8,4
+		 _  __           ____                        
+		| |/ /__ _      | __ )  ___   ___  _ __ ___  
+		| ' // _` |_____|  _ \ / _ \ / _ \| '_ ` _ \ 
+		| . \ (_| |_____| |_) | (_) | (_) | | | | | |
+		|_|\_\__,_|     |____/ \___/ \___/|_| |_| |_|
+		                                             
+		
+		
+		
+		
+		You see an eruption of oil and debris.
+		As you watch you see what appears to be an enemy
+		submarine keel over and disappear benieth the waves...
+		 
+		
+		
+		You found it in 5 tries! Congratulations!
+		
+		
+		Search volume (side length):
 
